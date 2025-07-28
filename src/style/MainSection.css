@@ -1,0 +1,14 @@
+#mainSection{
+    margin: 100px 0px 200px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#housesSection{
+    margin: 0px 60px 0px 60px;
+    text-align: center;
+}
+
+#House{
+    width: 250px;
+}

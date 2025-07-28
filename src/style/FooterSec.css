@@ -1,0 +1,29 @@
+#footerSec{
+    background-color: #461e57;
+    padding: 50px 50px 25px 50px;
+    margin-top: 100px;
+}
+
+#mainFooter{
+    display: flex;
+}
+
+#pgLogoFooter{
+    width: 200px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+#copyrightSec{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 60px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#cpSecPara{
+    text-align: right;
+}
