@@ -2,7 +2,7 @@
   padding: 20px;
   max-width: 1200px;
   margin: auto;
-  margin-top: 20px;
+  margin-top: 55px;
 }
 
 .collage-wrapper h1{
@@ -43,18 +43,27 @@
 }
 
 @media (max-width: 1024px) {
+  .collage-wrapper{
+    margin-top: 30px;
+  }
   .collage-wrapper h1{
   font-size: 25px;
 }
 }
 
 @media (max-width: 768px) {
+  .collage-wrapper{
+    margin-top: 30px;
+  }
   .collage-wrapper h1{
   font-size: 25px;
 }
 }
 
 @media (max-width: 480px) {
+  .collage-wrapper{
+    margin-top: 30px;
+  }
   .collage-wrapper h1{
   font-size: 25px;
 }

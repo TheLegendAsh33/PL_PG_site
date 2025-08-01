@@ -11,7 +11,7 @@ export default function MainSection(){
             <div id="housesSection">
                 <img src={raigadHouse} alt="" id="House"/>
                 <div>
-                    <h1><span id="color1">Boy's</span> <span id="color2">PG</span></h1>
+                    <h1><span id="color2">Boy's</span> <span id="color1">PG</span></h1>
                     <h3>Rooms & Comfort</h3>
                     <ul>
                         <li>Spacious double sharing rooms</li>
@@ -46,7 +46,7 @@ export default function MainSection(){
             <div id="housesSection">
                 <img src={shivneriHouse} alt="" id="House"/>
                 <div>
-                    <h1><span id="color1">Girl's</span> <span id="color2">PG</span></h1>
+                    <h1><span id="color2">Girl's</span> <span id="color1">PG</span></h1>
                    <h3>Rooms & Comfort</h3>
                     <ul>
                         <li>Cozy and well-decorated rooms with good lighting</li>

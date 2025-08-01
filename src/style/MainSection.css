@@ -49,12 +49,13 @@
 @media (max-width: 768px) {
   #mainSection {
     flex-direction: column;
-    margin: 50px 20px 100px 20px;
+    margin: 50px 20px 50px 20px;
     align-items: center;
   }
 
   #housesSection {
     width: 100%;
+    margin-bottom: 30px;
   }
 
   #housesSection h1 {
