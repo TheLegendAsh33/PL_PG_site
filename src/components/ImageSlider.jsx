@@ -21,24 +21,23 @@ const ImageSlider = () => {
       return () => clearInterval(interval);
     }, []);
   
-    useEffect(() => {
-      // When we reach the cloned slide (index === totalImages)
-      if (index === totalImages) {
-        // Disable transition, reset to index 0
-        setTimeout(() => {
-          if (slideRef.current) {
-            slideRef.current.style.transition = 'none';
-            setIndex(0);
-            slideRef.current.style.transform = `translateX(0%)`;
-          }
-        }, 500); // Wait for current transition to finish
-      } else {
-        if (slideRef.current) {
-          slideRef.current.style.transition = 'transform 0.8s ease-in-out';
-          slideRef.current.style.transform = `translateX(-${index * 100}%)`;
-        }
+useEffect(() => {
+  if (index === totalImages) {
+    setTimeout(() => {
+      if (slideRef.current) {
+        slideRef.current.style.transition = 'none';
+        slideRef.current.style.transform = `translateX(0%)`;
+        setIndex(0); // This will trigger re-render after transform reset
       }
-    }, [index, totalImages]);
+    }, 500);
+  } else {
+    if (slideRef.current) {
+      slideRef.current.style.transition = 'transform 0.8s ease-in-out';
+      slideRef.current.style.transform = `translateX(-${index * 100}%)`;
+    }
+  }
+}, [index, totalImages]);
+
   
     const handleDotClick = (dotIndex) => {
       setIndex(dotIndex);

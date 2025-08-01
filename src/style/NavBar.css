@@ -1,23 +1,27 @@
-#navLogo{
-    margin: 30px;
-    padding-bottom: 30px;
+#navLogo {
+    margin: 20px;
+    padding-bottom: 20px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-#navLogo ul{
-    display: flex;
-    margin-right: 50px;
+.pgLogo {
+    width: 150px;
+    margin-left: 20px;
 }
 
-#navLogo ul li{
-    list-style-type: none;
-    margin-left: 70px;
-    font-size: 21px;
-    font-weight: 600;
-}
 
-.pgLogo{
-    width:190px;
-    margin-left: 50px;
+/* Responsive design */
+@media (max-width: 768px) {
+    #navLogo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pgLogo {
+        margin-left: 0;
+        width: 130px;
+    }
 }
