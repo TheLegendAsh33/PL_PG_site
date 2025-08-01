@@ -1,6 +1,6 @@
 import React from "react";
 import '../style/FooterSec.css';
-import pgLogo from '../assets/Pl Logo PNG.png'
+import pgLogo from '../assets/PL Logo PNG.png'
 
 export default function FooterSec(){
     return(
