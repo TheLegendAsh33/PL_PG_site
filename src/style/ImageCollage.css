@@ -5,6 +5,18 @@
   margin-top: 20px;
 }
 
+.collage-wrapper h1{
+  text-align: center;
+  font-size: 50px;
+}
+
+#color1{
+  color:#FEA500;
+}
+#color2{
+  color:#612D75;
+}
+
 .my-masonry-grid {
   display: flex;
   margin-left: -10px;
@@ -28,4 +40,22 @@
     transform: scale(1.03);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
   }
+}
+
+@media (max-width: 1024px) {
+  .collage-wrapper h1{
+  font-size: 25px;
+}
+}
+
+@media (max-width: 768px) {
+  .collage-wrapper h1{
+  font-size: 25px;
+}
+}
+
+@media (max-width: 480px) {
+  .collage-wrapper h1{
+  font-size: 25px;
+}
 }

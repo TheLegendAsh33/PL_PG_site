@@ -20,7 +20,7 @@ const ImageCollage = () => {
 
   return (
     <div className="collage-wrapper">
-      <h3>Hostel View</h3>
+      <h1><span id="color2">"</span><span id="color1">Woke up to this</span> <span id="color2">Hostel Dreams</span><span id="color1">"</span></h1>
       <Masonry
         breakpointCols={breakpointColumnsObj}
         className="my-masonry-grid"

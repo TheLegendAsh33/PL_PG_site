@@ -40,13 +40,12 @@
 
 #House {
   width: 100%;
-  max-width: 250px;
+  max-width: 300px;
   height: auto;
   border-radius: 10px;
   margin-bottom: 20px;
 }
 
-/* ✅ Responsive Layout for Tablets & Mobiles */
 @media (max-width: 768px) {
   #mainSection {
     flex-direction: column;
@@ -71,7 +70,7 @@
   }
 
   #House {
-    max-width: 80%;
+    width: 230px;
   }
 }
 
