@@ -5,12 +5,12 @@
     justify-content: space-between;
 }
 
-ul{
+#navLogo ul{
     display: flex;
     margin-right: 50px;
 }
 
-ul li{
+#navLogo ul li{
     list-style-type: none;
     margin-left: 70px;
     font-size: 21px;

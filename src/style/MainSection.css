@@ -1,14 +1,90 @@
-#mainSection{
-    margin: 100px 0px 200px 0px;
-    display: flex;
-    justify-content: space-around;
+#mainSection {
+  margin: 100px 50px 200px 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 40px;
 }
 
-#housesSection{
-    margin: 0px 60px 0px 60px;
-    text-align: center;
+#housesSection {
+  text-align: center;
+  max-width: 500px;
+  flex: 1 1 400px;
 }
 
-#House{
-    width: 250px;
+#housesSection div {
+  text-align: left;
+  padding: 20px;
+}
+
+#housesSection h1 {
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 28px;
+}
+
+#housesSection h3 {
+  margin: 25px 0 10px;
+  font-size: 20px;
+}
+
+#housesSection ul {
+  font-size: 18px;
+  margin-bottom: 30px;
+  padding-left: 20px;
+}
+
+#housesSection li {
+  margin-bottom: 8px;
+}
+
+#House {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* ✅ Responsive Layout for Tablets & Mobiles */
+@media (max-width: 768px) {
+  #mainSection {
+    flex-direction: column;
+    margin: 50px 20px 100px 20px;
+    align-items: center;
+  }
+
+  #housesSection {
+    width: 100%;
+  }
+
+  #housesSection h1 {
+    font-size: 24px;
+  }
+
+  #housesSection h3 {
+    font-size: 18px;
+  }
+
+  #housesSection ul {
+    font-size: 16px;
+  }
+
+  #House {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  #housesSection h1 {
+    font-size: 22px;
+  }
+
+  #housesSection ul {
+    font-size: 15px;
+  }
+
+  #House {
+    max-width: 100%;
+  }
 }

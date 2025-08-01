@@ -7,12 +7,12 @@ export default function NavBar(){
         <>
             <nav id="navLogo">
                 <img src={pgLogo} alt="pglogo" className="pgLogo"/>
-                <div>
+                {/* <div>
                     <ul>
                         <li>About us</li>
                         <li>Contact</li>
                     </ul>
-                </div>
+                </div> */}
             </nav>
         </>
     )

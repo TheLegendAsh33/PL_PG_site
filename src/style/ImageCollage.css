@@ -1,0 +1,31 @@
+.collage-wrapper {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 150px;
+}
+
+.my-masonry-grid {
+  display: flex;
+  margin-left: -10px;
+  width: auto;
+}
+.my-masonry-grid_column {
+  padding-left: 10px;
+  background-clip: padding-box;
+}
+
+.collage-img {
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+@media (hover: hover) {
+  .collage-img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+}
