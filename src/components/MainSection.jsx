@@ -2,12 +2,13 @@ import React from "react";
 import '../style/MainSection.css';
 import raigadHouse from "../assets/raigadHouse.png"
 import shivneriHouse from "../assets/shivneriHouse.png"
+import RaigadHouse from "../components/RaigadHouse"
+import ShivneriHouse from "../components/ShivneriHouse"
 
 export default function MainSection(){
     return(
         <>
         <div id="mainSection">
-            <div></div>
             <div id="housesSection">
                 <img src={raigadHouse} alt="" id="House"/>
                 <div>
@@ -41,6 +42,8 @@ export default function MainSection(){
                         <li>Visitors allowed in common area (with permission)</li>
                         <li>No alcohol/drugs/smoking inside premises</li>
                     </ul>
+                    <h3>My Location</h3>
+                    <RaigadHouse/>
                 </div>
             </div>
             <div id="housesSection">
@@ -78,6 +81,8 @@ export default function MainSection(){
                         <li>Silent hours post 10:30 PM for peaceful environment</li>
                         <li>Emergency contact always available</li>
                     </ul>
+                    <h3>My Location</h3>
+                    <ShivneriHouse/>
                 </div>
             </div>
         </div>
