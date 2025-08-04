@@ -20,7 +20,7 @@ import img18 from '../assets/18.jpg';
 import img19 from '../assets/19.jpg';
 import img20 from '../assets/20.jpg';
 import img21 from '../assets/21.jpg';
-import img22 from '../assets/22.JPG';
+import img22 from '../assets/22.jpg';
 import img23 from '../assets/23.jpg';
 import img24 from '../assets/24.jpg';
 
