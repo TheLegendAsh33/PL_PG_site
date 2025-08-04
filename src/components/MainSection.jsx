@@ -4,6 +4,8 @@ import raigadHouse from "../assets/raigadHouse.png"
 import shivneriHouse from "../assets/shivneriHouse.png"
 import RaigadHouse from "../components/RaigadHouse"
 import ShivneriHouse from "../components/ShivneriHouse"
+import raigad from "../assets/29.jpg"
+import shivneri from "../assets/19.jpg"
 
 export default function MainSection(){
     return(
@@ -11,6 +13,8 @@ export default function MainSection(){
         <div id="mainSection">
             <div id="housesSection">
                 <img src={raigadHouse} alt="" id="House"/>
+                <br />
+                <img src={raigad} alt="" id="houseImg"/>
                 <div>
                     <h1><span id="color2">Boy's</span> <span id="color1">PG</span></h1>
                     <h3>Rooms & Comfort</h3>
@@ -48,6 +52,8 @@ export default function MainSection(){
             </div>
             <div id="housesSection">
                 <img src={shivneriHouse} alt="" id="House"/>
+                <br />
+                <img src={shivneri} alt="" id="houseImg"/>
                 <div>
                     <h1><span id="color2">Girl's</span> <span id="color1">PG</span></h1>
                    <h3>Rooms & Comfort</h3>

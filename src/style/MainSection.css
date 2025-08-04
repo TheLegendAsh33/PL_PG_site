@@ -46,6 +46,10 @@
   margin-bottom: 20px;
 }
 
+#houseImg{
+  width: 400px;
+}
+
 @media (max-width: 768px) {
   #mainSection {
     flex-direction: column;
@@ -72,6 +76,10 @@
 
   #House {
     width: 230px;
+  }
+
+  #houseImg{
+    width: 300px;
   }
 }
 
